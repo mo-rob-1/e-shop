@@ -64,6 +64,8 @@ const PaymentForm = ({ checkoutToken, shippingData, backStep, onCaptureCheckout,
                                     Pay { checkoutToken.live.subtotal.formatted_with_symbol }
                                 </Button>
                             </div>
+                            <p style={{ color: 'red', fontWeight: 'bold' }}>*Please only use the following test credit card for payments*
+                            4242 4242 4242 4242 - Exp: 01/20 - CVC: 123</p>
                         </form>
                     )}
                 </ElementsConsumer>
